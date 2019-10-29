@@ -4,19 +4,26 @@
 
 body {
   margin: 0%;
+  background-image: url("../images/triangle.png");
 }
 
 h1 {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 22px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom-style: solid;
+  border-color: #777777;
+  border-width: 2px;
+  padding: 15px 15px 15px 0px;
 }
 
 .header {
   width: 100%;
   margin: auto;
-  background: #ffffff;
-  border-color: #cccccc;
+  background-color: #ffffff;
   height: 70px;
 }
 
@@ -62,15 +69,26 @@ h1 {
   max-width: 960px;
   margin: auto;
   clear: both;
-  padding-top: 20px;
+  margin-top: 20px;
   color: #777777;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  border-style: solid;
+  border-color: #777777;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.maintext {
+  margin: 20px;
 }
 
 #profilepic {
   float: left;
   margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 6px;
 }
 
 .footer {
